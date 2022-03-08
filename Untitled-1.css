@@ -1,0 +1,123 @@
+body {
+    max-width: 960px
+    margin: 0;
+    max-height:6000px;
+}
+p {
+font-size: 25px;
+}
+.header {
+background-image: url("C:\\Users\\josip\\OneDrive\\Desktop\\stranice\\kava\\resursi\\slike\\baner2.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+width: 100%;
+height: 900px;
+background-position: center;
+}
+.header h1 {
+font-size: 70px;
+position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+.navi  {
+width: 98.4%;
+height: 50px ;
+background-color: #ff4800;
+padding-left: 30px;
+}
+.navi p {
+padding-top: 10px;
+color: aliceblue;
+}
+-------------------------
+PRIMJER TEXTA DESNO OD SLIKE {
+}
+.great {
+height:400px;
+display: flex;
+ align-items: center;
+ justify-content: center
+
+}
+.great img {
+    max-width: 100%
+}
+.zrno_slika {
+flex-basis: 40%;
+}
+.txt  {
+    font-size: 15px;
+    padding-left: 100px;
+
+}
+
+.devet {
+background-color: #ff4800;
+height:350px;
+}
+.devet h2 {
+font-size: 60px;
+text-align: center;
+padding-top: 60px;
+color: white;
+}
+.devet p {
+text-align: center;
+padding-top: 40px;
+color: white;
+}
+.galerija {
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+}
+.slika {
+    flex: auto;
+display: inline-block;
+height: 300px;
+padding: 10px;
+border: 3px solid #ff4800;
+}
+.mapa {
+
+text-align: center;
+padding: 15px;
+}
+.map {
+padding-top: 20px;
+height: 400px;
+width: 60%;
+}
+.footerr {
+    text-align: center;
+    justify-content: space-between;
+    padding-top: 25px;
+height: 200px;
+width: 100%;
+background-color: #ff4800;
+font-size: 35px;
+color: white;
+}
+.footerr p {
+}
+
+
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+    .slika {
+     width: 100%;
+     height:100%; 
+    }
+    .zrno_slika {
+    width: 80%;
+        }
+        .map  {
+            width: 100%;
+        }
+            
+        
+    }
+     
